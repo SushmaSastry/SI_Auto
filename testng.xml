@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NextGen Suite" parallel="none">
+	<!--  
+	<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+		-->
+	
+		
+		<test name="ComapareTables"> 
+    	<classes > 
+    		     	
+        	<class name="com.timeInc.si.validateScores.CompareTables"></class>
+    	</classes>   
+    	</test>
+		
+		
+
+ </suite>
+
